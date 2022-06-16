@@ -1,62 +1,65 @@
 body {
-    font-family: 'Gumela';
-    background: linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgba(29, 189, 255, 1) 100%);
+  font-family: "Gumela";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 254, 1) 0%,
+    rgba(29, 189, 255, 1) 100%
+  );
 }
 
 .main-container {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .left-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Gumela';
-    font-size: 20px;
-    gap: 1.5rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gumela";
+  font-size: 20px;
+  gap: 1.5rem;
 }
 
 .right-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Gumela';
-    font-size: 20px;
-    gap: 1.5rem;
-
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gumela";
+  font-size: 20px;
+  gap: 1.5rem;
 }
 
 .select {
-    width: 200px;
-    padding: 0.5em;
-    outline: none;
-    border: 2px solid rgb(61, 58, 58);
-    border-radius: 8px;
-    font-size: 18px;
-    font-family: 'Gumela';
+  width: 200px;
+  padding: 0.5em;
+  outline: none;
+  border: 2px solid rgb(61, 58, 58);
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: "Gumela";
 }
 
 .button {
-    font-family: 'Gumela';
-    background: #1f86fc;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px 10px;
+  font-family: "Gumela";
+  background: #1f86fc;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .button:hover {
-    cursor: pointer;
-    color: #1f86fc;
-    background: white;
-    border: 1px solid rgb(61, 58, 58);
+  cursor: pointer;
+  color: #1f86fc;
+  background: white;
+  border: 1px solid rgb(61, 58, 58);
 }
 
 .result {
-    font-size: 3rem;
+  font-size: 3rem;
 }
