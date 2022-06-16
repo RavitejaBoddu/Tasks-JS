@@ -1,9 +1,9 @@
-body{
-    font-family:'Gumela';
-    background:linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgb(175, 231, 255) 100%);
+body {
+    font-family: 'Gumela';
+    background: linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgb(175, 231, 255) 100%);
 }
 
-.factorial-container{
+.factorial-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,22 +11,22 @@ body{
     margin: 3rem;
 }
 
-.factorial{
+.factorial {
     display: flex;
     gap: 1rem;
 }
 
-#fact-input{
+#fact-input {
     width: 20rem;
     height: 2rem;
     padding: 0.3em;
     outline: none;
     border: 2px solid rgb(61, 58, 58);
     border-radius: 8px;
-    font-size: 16px;   
+    font-size: 16px;
 }
 
-.factorial-result{
+.factorial-result {
     display: flex;
     justify-content: center;
     margin: 3rem;
@@ -35,20 +35,21 @@ body{
     gap: 1.5rem;
 }
 
-#result{
+#result {
     font-size: 2rem;
     line-height: 2rem;
 }
 
-.button{
-    font-family:'Gumela';
+.button {
+    font-family: 'Gumela';
     background: #1f86fc;
     color: white;
     font-size: 20px;
     border-radius: 5px;
     padding: 5px 10px;
 }
-.button:hover{
+
+.button:hover {
     cursor: pointer;
     color: #1f86fc;
     background: white;
