@@ -1,0 +1,29 @@
+body {
+  font-family: "Gumela";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 254, 1) 0%,
+    rgba(29, 189, 255, 1) 100%
+  );
+}
+
+.container {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heading{
+  font-size: 2rem;
+  font-family: 'Gumela';
+ 
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
