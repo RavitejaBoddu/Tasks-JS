@@ -1,0 +1,133 @@
+body {
+    font-family: 'Gumela';
+    background: linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgba(29, 189, 255, 1) 100%);
+}
+
+.registration-form {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gumela';
+}
+
+.left-container {
+    display: flex;
+    position: relative;
+    font-family: 'Gumela';
+    align-items: center;
+
+}
+
+.contact-heading {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Gumela';
+}
+
+.contact-heading :nth-child(1) {
+    color: #242D49;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-heading :nth-child(2) {
+    color: #1f86fc;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#success {
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    font-family: 'Gumela';
+}
+
+.right-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.right-container .input {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid rgb(61, 58, 58);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#msg {
+    width: 20rem;
+    height: 4.5rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid rgb(61, 58, 58);
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+#sub {
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid rgb(61, 58, 58);
+    border-radius: 8px;
+    font-family: 'Gumela';
+    font-size: 16px;
+}
+
+.radio {
+    display: flex;
+    font-size: 20px;
+}
+
+.radio input {
+    margin-left: 1.5rem;
+}
+
+.interest {
+    display: flex;
+    font-size: 20px;
+}
+
+.interest input {
+    margin-left: 1rem;
+}
+
+.sub {
+    display: flex;
+    font-size: 20px;
+    gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    font-family: 'Gumela';
+    background: #1f86fc;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #1f86fc;
+    background: white;
+    border: 1px solid rgb(61, 58, 58);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="//db.onlinewebfonts.com/c/00561b492d88a5287a5def1e83a34882?family=Gumela" rel="stylesheet"
+        type="text/css" />
+</head>
+<body>
+    <div class="registration-form">
+        <div class="left-container" style>
+            <div class="contact-heading">
+                <span>Register here,</span>
+                <span>to join our community!</span>
+                <span id="success"></span>
+            </div>
+        </div>
+        <div class="right-container">
+            <form class="form" id="myform" name="myform">
+                <input type="text" class=input id="fname" name="firstname" placeholder="Enter First Name" />
+                <input type="text" class=input id="lname" name="lastname" placeholder="Enter Last Name" />
+                <input type="email" class=input id="email" name="email" placeholder="Enter your Email id" />
+                <input type="password" class=input id="pass1" name="password1" placeholder="Enter your password" />
+                <input type="password" class=input id="pass2" name="password2" placeholder="Re-enter your password" />
+                <div class="radio">
+                    <span>Gender:- </span>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="interest">
+                    <span>Area of Interests:-</span>
+                    <input type="checkbox" id="js" name="interests" value="Javascript" />
+                    <label for="js">Javascript</label>
+                    <input type="checkbox" id="react" name="interests" value="React" />
+                    <label for="react">React</label>
+                    <input type="checkbox" id="angular" name="interests" value="Angular" />
+                    <label for="angular">Angular</label>
+                </div>
+                <div class="sub">
+                    <label for="sub">Choose an email subscription:</label>
+                    <select id="sub" name="subscription">
+                        <option value="All emails">All emails</option>
+                        <option value="Only important emails">Only important emails</option>
+                        <option value="No emails">No emails</option>
+                    </select>
+                </div>
+                <label for="msg">Enter your message:</label>
+                <textarea id="msg" name="message" rows="5" cols="30" placeholder="Type your message here"></textarea>
+                <div class="buttons">
+                    <input type="submit" class="button" id="submit" value="Register" />
+                    <input type="reset" class="button" id="reset" value="Reset">
+                </div>
+            </form>
+        </div>    
+</body>
+<script src="index.js"></script>
+</html>
