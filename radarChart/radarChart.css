@@ -1,17 +1,21 @@
-body{
-    font-family:'Gumela';
-    background:linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgba(29, 189, 255, 1) 100%);
+body {
+  font-family: "Gumela";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 254, 254, 1) 0%,
+    rgba(29, 189, 255, 1) 100%
+  );
 }
 
-.main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.chart{
-    background: white;
-    margin: 2rem;
-    width: 600px;
-    border: 1px solid black;
+.chart {
+  background: white;
+  margin: 2rem;
+  width: 600px;
+  border: 1px solid black;
 }
