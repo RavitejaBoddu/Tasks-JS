@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezones</title>
+    <link rel="stylesheet" href="timezone.css" />
+    <link href="//db.onlinewebfonts.com/c/00561b492d88a5287a5def1e83a34882?family=Gumela" rel="stylesheet"
+        type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <label>Select the Timezone to display the time:</label>
+            <select id="timezone" class="select">
+                <option value="UTC-7">PST (US)</option>
+                <option value="UTC-6">MST (US)</option>
+                <option value="UTC-5">CST (US)</option>
+                <option value="UTC-4">EST (US)</option>
+                <option value="UTC-3">Rio - brazil</option>
+                <option value="UTC-2">UTC</option>
+                <option value="UTC+1">BST (London)</option>
+                <option value="UTC+2">CEST (Berlin)</option>
+                <option value="UTC+3">MSK(Moscow)</option>
+                <option value="UTC+4">UAE</option>
+                <option value="UTC+5:30">IST(Mumbai)</option>
+                <option value="UTC+8">Singapore</option>
+                <option value="UTC+8">CST(Beijing)</option>
+                <option value="UTC+9">JST(Tokyo)</option>
+                <option value="UTC+10">AEST(Sydney,AUS)</option>
+                <option value="UTC+12">NZST(Auckland,NZ)</option>
+            </select>
+
+            <button onclick="getTimezoneTime()" class="button">Get Time</button>
+            <span id="tzresult" class="result"></span>
+        </div>
+        <div class="right-container">
+            <label>Select the country to display the time</label>
+            <select id="country" class="select">
+                <option value="America/Chicago">Chicago</option>
+                <option value="Australia/Sydney">Sydney</option>
+                <option value="Asia/Hong_Kong">Hong_Kong</option>
+                <option value="Asia/Dubai">Dubai</option>
+                <option value="Asia/Karachi">Karachi</option>
+                <option value="Africa/Cairo">Cairo</option>
+                <option value="Europe/London">London</option>
+                <option value="Europe/Paris">Paris</option>
+                <option value="America/Los_Angeles">Los_Angeles</option>
+            </select>
+
+            <button onclick="getCountryTime()" class="button">Get Time</button>
+            <span id="tcresult" class="result"></span>
+        </div>
+    </div>
+</body>
+<script src="timezone.js"></script>
+
+</html>
