@@ -4,10 +4,7 @@ const xhr = new XMLHttpRequest();
 
 xhr.onload = function () {
   if (xhr.status === 200) {
-    //parse JSON data
     data = JSON.parse(xhr.responseText);
-    // console.log(data);
-
     let table = document.querySelector("table");
     let tabledata = Object.keys(data[0]);
     generateTableHead(table, tabledata);
