@@ -1,0 +1,26 @@
+body{
+    font-family:'Gumela';
+    background:linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgb(175, 231, 255) 100%);
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gumela';
+    gap: 1rem;
+}
+.date-container{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    gap: 1.5rem;
+}
+.time-container{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    gap: 1.5rem;
+}
