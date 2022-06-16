@@ -7,6 +7,21 @@ body {
   );
 }
 
+.container {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heading{
+  font-size: 2rem;
+  font-family: 'Gumela';
+ 
+}
+
 table,
 th,
 td {
