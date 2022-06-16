@@ -1,0 +1,8 @@
+body{
+    font-family:'Gumela';
+    background:linear-gradient(90deg, rgba(255, 254, 254, 1) 0%, rgba(29, 189, 255, 1) 100%);
+}
+
+table, th, td {
+    border:1px solid black;
+}
